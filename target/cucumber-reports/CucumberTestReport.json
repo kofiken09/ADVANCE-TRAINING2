@@ -1,0 +1,192 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "As a user I want to be able to login into",
+        "description": "my account",
+        "id": "i-want-to-login-into-my-account-to-purchase-an-item;as-a-user-i-want-to-be-able-to-login-into;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5658765300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on automation practice website",
+            "match": {
+              "location": "loginSteps.i_am_on_automation_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137146600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter aaronopp@yahoo.com and kofiken",
+            "match": {
+              "location": "loginSteps.i_enter_aaronopp_yahoo_com_and_kofiken()"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1580816200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on \"sign button\" to log into my account",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sign button",
+                  "offset": 12
+                }
+              ],
+              "location": "loginSteps.i_click_on_to_log_into_my_account(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "As a user I want to be able to login into",
+        "description": "my account",
+        "id": "i-want-to-login-into-my-account-to-purchase-an-item;as-a-user-i-want-to-be-able-to-login-into;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5550218900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on automation practice website",
+            "match": {
+              "location": "loginSteps.i_am_on_automation_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 128955300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter hannahwood@gmail.com and araba83",
+            "match": {
+              "arguments": [
+                {
+                  "val": "83",
+                  "offset": 38
+                }
+              ],
+              "location": "loginSteps.i_enter_hannahwood_gmail_com_and_araba(int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 718889200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on \"sign button\" to log into my account",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sign button",
+                  "offset": 12
+                }
+              ],
+              "location": "loginSteps.i_click_on_to_log_into_my_account(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "As a user I want to be able to login into",
+        "description": "my account",
+        "id": "i-want-to-login-into-my-account-to-purchase-an-item;as-a-user-i-want-to-be-able-to-login-into;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5045705700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on automation practice website",
+            "match": {
+              "location": "loginSteps.i_am_on_automation_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141848300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter vivianokrah@hotmail.com and vivian2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 42
+                }
+              ],
+              "location": "loginSteps.i_enter_vivianokrah_hotmail_com_and_vivian(int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1718971900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on \"sign button\" to log into my account",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sign button",
+                  "offset": 12
+                }
+              ],
+              "location": "loginSteps.i_click_on_to_log_into_my_account(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "I want to login into my account to purchase an item",
+    "description": "",
+    "id": "i-want-to-login-into-my-account-to-purchase-an-item",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
